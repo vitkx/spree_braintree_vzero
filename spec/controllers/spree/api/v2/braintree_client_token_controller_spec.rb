@@ -1,6 +1,6 @@
 require 'spec_helper'
 
-describe Spree::Api::V1::BraintreeClientTokenController, :vcr, type: :controller do
+describe Spree::Api::V2::BraintreeClientTokenController, :vcr, type: :controller do
   let!(:gateway) { create(:vzero_gateway, auto_capture: true) }
   let(:order) { create(:order) }
 
