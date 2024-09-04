@@ -1,4 +1,4 @@
-class Spree::Orders::CustomerDetails::Form
+class Spree::Admin::Orders::CustomerDetails::Form
   Deface::Override.new(
     virtual_path: 'spree/admin/orders/customer_details/_form',
     name: 'Add warning for braintree admins',
